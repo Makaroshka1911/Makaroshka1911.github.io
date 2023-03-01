@@ -1,0 +1,148 @@
+#p1, #p3, #p4{
+    position: relative;
+    float: right;
+    bottom: 11%;
+    left: 0;
+    border: solid;
+    border-color: black;
+    display: inline;
+    overflow: visible;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+#p1{
+    background-color: lightgreen;
+    width: 50px;
+}
+
+#p2{
+    text-align: center;
+    vertical-align: center;
+    padding-left:5px;
+    padding-right: 5px;
+    box-sizing: border-box;
+}
+
+#p3{
+    background-color: lightpink;
+    width: 60px;
+}
+
+#p4{
+    background-color: red;
+    color: white;
+    width: 40px;
+}
+
+body{
+    margin-left: 30px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10%;
+}
+
+h1{
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    background-color: lightgray;
+    margin-right: 32px;
+}
+
+
+
+@media (min-width: 992px) {
+
+    body{
+        margin-right: 0;
+    }
+ section{
+     display: inline;
+     background-color: lightgray;
+     float: left;
+     width: 32%;
+     align-items: center;
+     text-align: center;
+     height: 170px;
+     margin-right: 13px;
+     position: relative;
+     border-radius: 10px;
+ }
+
+    section:last-child{
+        margin-right: 0;
+    }
+
+    h1{
+        width: 97.5%;
+    }
+
+}
+
+
+@media (min-width:768px) and (max-width:991px)  {
+    section{
+        display: inline;
+
+        float: left;
+        width: 48%;
+        align-items: center;
+        text-align: center;
+        background-color: lightgray;
+        height: 150px;
+        margin-right: 13px;
+        position: relative;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+
+    section:last-child{
+        width: 97.5%;
+    }
+
+    h1{
+        width: 97.5%;
+    }
+
+    #p1, #p3, #p4{
+        position: relative;
+        float: right;
+        bottom: 11%;
+        left: 0;
+        border: solid;
+        border-color: black;
+        display: inline;
+        overflow: visible;
+        border-radius: 10px;
+        box-sizing: border-box;
+    }
+
+
+}
+
+
+@media (max-width:767px){
+    section{
+        display: inline;
+
+        float: left;
+        width: 100%;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 10px;
+        background-color: lightgray;
+        height: 150px;
+        margin-right: 13px;
+        position: relative;
+        border-radius: 10px;
+    }
+
+    h1{
+        width: 100%;
+    }
+
+    body{
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+}
